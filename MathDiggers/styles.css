@@ -1,0 +1,277 @@
+#body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+}
+
+
+#toggler-icon{
+  color: #815B5B;
+}
+
+ #navbar-container{
+   background-color: white;
+   position: fixed;
+   z-index: 3;
+
+ }
+#nav-link{
+  color: #815B5B;
+  margin: 10px 30px 0 0;
+
+}
+
+#nav-img{
+  width: 60%;
+
+}
+
+#nav-img-tag{
+  margin:  10px 0 0 10%;
+}
+
+#navbar-container{
+  padding: 0;
+
+}
+
+
+#navbar-brand {
+color: #815B5B;
+}
+
+
+#navbarSupportedContent{
+  margin-right: 10%;
+}
+
+
+#Bio{
+padding: 3% 0 350px  0;
+background-image: url(Images/body-background-img.jpg);
+
+}
+
+
+.bio-h1{
+font-weight: bold;
+}
+
+#body-txt{
+  padding:  15% 0 0 6%;
+  color: white;
+
+}
+
+.PersonalImg{
+  position: absolute;
+  right: 20px;
+  bottom:-350px;
+  z-index: 1;
+}
+
+.Qualification{
+  background-color: white;
+  z-index: 2;
+  text-align: center;
+  margin-top: 3%;
+
+
+}
+#about-data{
+  text-align: center;
+}
+
+
+.about-heading{
+  padding:  5% 0 2% 0 ;
+  color: #815B5B;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.about-p{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 18px;
+}
+
+.hr{
+  border-style: none;
+  border-bottom: dotted;
+  border-width: 5px;
+  width: 5%;
+  color: #815B5B;
+  padding:  4%;
+}
+
+.contact{
+  margin: 10% 0 0 0 ;
+  text-align: center;
+  color: #815B5B; }
+
+
+  #footer-logo{
+    margin: 4% 2% 3% 2%;
+
+  }
+.fb-logo{
+
+}
+.whatsapp-logo{
+  color: 	#25D366;
+}
+
+.phone-logo{
+  color: #B1B1B1;
+}
+
+.email-logo{
+  color: #EA4335
+}
+
+
+
+
+@media (max-width:1700px) {
+  .PersonalImg{
+    position: absolute;
+    right: 0px;
+    bottom:-350px;
+    z-index: 1;
+  }
+}
+
+@media (max-width:1600px) {
+  .PersonalImg{
+    position: absolute;
+    right: -30px;
+    bottom:-350px;
+    z-index: 1;
+  }
+}
+
+@media (max-width:1420px) {
+  .PersonalImg{
+    position: absolute;
+    right: -120px;
+    bottom:-350px;
+    z-index: 1;
+    width: 160%;
+    height: auto;
+  }
+}
+
+@media (max-width:1300px) {
+  .PersonalImg{
+    position: absolute;
+    right: -120px;
+    bottom:-250px;
+    z-index: 1;
+    width: 160%;
+    height: auto;
+  }
+  #Bio{
+  padding: 3% 0 250px  0;
+  background-image: url(Images/body-background-img.jpg);
+
+  }
+}
+
+@media (max-width:991px) {
+  .PersonalImg{
+    position: absolute;
+    right: 30px;
+    bottom:-500px;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+  #Bio{
+  padding: 3% 0 500px  0;
+  background-image: url(Images/body-background-img.jpg);
+  text-align: center;
+  }
+#bio-h1{
+font-size: 2rem;
+font-weight: bold;
+}
+}
+
+
+@media (max-width:850px) {
+  .PersonalImg{
+    position: absolute;
+    right: 30px;
+    bottom:-500px;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+  #Bio{
+  padding: 3% 0 500px  0;
+  background-image: url(Images/body-background-img.jpg);
+  text-align: center;
+  }
+#bio-h1{
+font-size: 2rem;
+font-weight: bold;
+}
+#body-txt{
+  padding:  20% 0 0 6%;
+  color: white;
+}
+
+@media (max-width:700px) {
+  .PersonalImg{
+    position: absolute;
+    right: -30px;
+    bottom:-500px;
+    z-index: 1;
+    width: 120%;
+    height: auto;
+  }
+  #Bio{
+  padding: 3% 0 500px  0;
+  background-image: url(Images/body-background-img.jpg);
+  text-align: center;
+  }
+#bio-h1{
+font-size: 2rem;
+font-weight: bold;
+}
+#body-txt{
+  padding:  20% 0 0 6%;
+  color: white;
+}
+@media (max-width:400px) {
+  .PersonalImg{
+    position: absolute;
+    right: -30px;
+    bottom:-350px;
+    z-index: 1;
+    width: 120%;
+    height: auto;
+  }
+  #Bio{
+  padding: 3% 0 350px  0;
+  background-image: url(Images/body-background-img.jpg);
+  text-align: center;
+  }
+#bio-h1 {
+font-size: 1.5rem;
+font-weight: bold;
+}
+#bio-h5{
+  font-size: 1rem;
+}
+#bio-h6{
+  font-size: 1rem;
+}
+#body-txt{
+  padding:  28% 0 0 6%;
+  color: white;
+}
+#body{
+  font-size: 1.5rem !important;
+}
+}
